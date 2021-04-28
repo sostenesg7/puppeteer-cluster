@@ -1,0 +1,19 @@
+{
+  "name": "puppeter-cluster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf output && mkdir output && node src/index.js",
+    "cluster": "rm -rf output && mkdir output && node src/puppeteerCluster.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "puppeteer": "^9.0.0",
+    "puppeteer-cluster": "^0.22.0",
+    "uuid": "^8.3.2"
+  }
+}
